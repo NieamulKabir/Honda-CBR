@@ -1,0 +1,65 @@
+/* font_family */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* common part  */
+.section_title{
+    margin-top: 65px;
+    color: #000000;
+    font-size: 40px;
+    font-weight: 600;
+}
+.high_light{
+    color: #E76F51;
+}
+.btn_color{
+    background-color: #E76F51;
+    color: white;
+}
+body{
+    font-family: 'Poppins', sans-serif; 
+}
+.header_unit{
+    background: #264653;
+}
+.header_detailes{
+    margin-top: 70px;
+    padding-bottom: 90px;
+
+}
+.header_content .model_title{
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 48px;
+}
+.header_content p{
+    padding-top: 18px;
+    padding-bottom: 20px;
+    font-size: 16px;
+  
+}
+/* header end  */
+
+.fetured p{
+    font-weight: 600;
+    font-size: 14px;
+    color: #E76F51;
+    margin-bottom: 70px;
+}
+
+.feature_bike .luminosity img{
+    mix-blend-mode: luminosity;
+}
+/* feature bike end  */
+
+
+.clients_section{
+    margin-top: 60px ;
+}
+
+.clients h4{
+    font-weight: 600;
+    font-size: 14px;
+}
+.fa-star{
+    color: #E76F51;
+}
