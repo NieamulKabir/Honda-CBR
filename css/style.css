@@ -18,6 +18,9 @@
 body{
     font-family: 'Poppins', sans-serif; 
 }
+ /* common end  */
+
+ /* header start  */
 .header_unit{
     background: #264653;
 }
@@ -39,6 +42,8 @@ body{
 }
 /* header end  */
 
+
+/* fetured start  */
 .fetured p{
     font-weight: 600;
     font-size: 14px;
@@ -52,6 +57,7 @@ body{
 /* feature bike end  */
 
 
+/* clints starts */
 .clients_section{
     margin-top: 60px ;
 }
@@ -63,3 +69,18 @@ body{
 .fa-star{
     color: #E76F51;
 }
+ /* clints end  */
+
+ /* honda accessories start  */
+.helmet{
+    box-shadow: 5px 5px 20px 2px;
+    transition: transform .5s ease-in-out;
+    border-radius: 15px;
+}
+.helmet:hover{
+    transform: scale(1.05);
+    /* transition:  .5s ease-in-out ; */
+    background-color: white;
+    box-shadow: 5px 5px 5px 2px #e6c9c2  ;
+}
+/* honda accessories end  */
